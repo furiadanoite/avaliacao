@@ -60,22 +60,10 @@ display: none;
    font-size: 30px;
    font-family: var(--fonte-secundaria);
    color: rgb(43,226,101);
-   display: block;
+   display: flex;
    }
     
-   .container{
-    font-size: 30px;
-    font-family: var(--fonte-secundaria);
-    color: rgb(43,226,101);
-    display: block;
-    }
-
-    .Imagem{
-     font-size: 30px;
-     font-family: var(--fonte-secundaria);
-     color: rgb(43,226,101);
-     display: block;
-    }
+   
 }
 
 
