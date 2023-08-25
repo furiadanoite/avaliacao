@@ -14,21 +14,30 @@
     color: rgb(236, 233, 238);
     margin-bottom: 7px;
     text-align: center;
+    background-color: black;
+   
 }
 @media screen and (min-width:1024px){
 
     .container{
         font-size: 30px;
         font-family: var(--fonte-secundaria);
-        color: rgb(43,226,101);
+        color: rgb(0, 0, 0);
         display: block;
         }
     
      .Imagem{
-         font-size: 30px;
-         font-family: var(--fonte-secundaria);
-         color: rgb(43,226,101);
-         display: block;
+        width: 200px!important;
+        height: 200px!important;
         }
+        .titulo{
+            font-size: 20px;
+            color: rgb(236, 233, 238);
+            margin-bottom: 7px;
+            text-align: center;
+            background-color: black;
+}
+.mb{color: #f4ecec;
 
+}
 }

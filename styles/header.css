@@ -21,6 +21,9 @@
 }
 .container__imagem{
     padding: 1em;
+    width: 50px;
+    height: 50px;
+
 }
 
 .lista-menu{
@@ -52,6 +55,7 @@
     background-color: var(--branco);
 
 }
+
  .titulo__cabecalho{
 display: none;
  }
@@ -59,7 +63,7 @@ display: none;
    .titulo__cabecalho{
    font-size: 30px;
    font-family: var(--fonte-secundaria);
-   color: rgb(43,226,101);
+   color: rgba(3, 40, 106, 0.941);
    display: flex;
    }
     
