@@ -66,8 +66,32 @@ display: none;
    color: rgba(3, 40, 106, 0.941);
    display: flex;
    }
-    
-   
+.opcoes{
+    display: flex;
+}
+.opcoes__item{
+    padding: 0 1em;
+}
+.opcoes__link{
+    text-decoration: none;
+    color: var(--preto);
+}
+.container__imagem--transparente{
+    display: none;
+}
+.cabecalho__menu-hamburguer{
+    display: none;
+}
+.opcoes__botao:checked~.lista-menu{
+    display: block;
+}
+.opcoes__botao{
+    display: none;
+}
+.class Favoritos{
+    display: none;
+}
+
 }
 
 
